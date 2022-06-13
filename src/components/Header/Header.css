@@ -1,0 +1,34 @@
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+header-image {
+  width: 200px;
+}
+
+.head-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 5px 0 15px 0;
+  transition: font-size 0.5s;
+}
+.head-text-expanded {
+  font-size: 36px;
+}
+.head-text-contracted {
+  font-size: 22px;
+}
+.head-image {
+  width: auto;
+  transition: max-width 0.5s, min-width 0.5s;
+}
+
+.head-image-expanded {
+  min-width: 230px;
+  max-width: 250px;
+}
+.head-image-contracted {
+  min-width: 100px;
+  max-width: 90px;
+}
